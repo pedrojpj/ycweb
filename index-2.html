@@ -6,13 +6,16 @@
 
 		<!-- Basic -->
 		<meta charset="utf-8">
-		<title>YC Tecnologías - Desarrollo Web, Desarrollo de aplicaciones móviles, javascript, php, java, objective c</title>
-		<meta name="keywords" content="Desarrollo web, desarrollo aplicaciones móviles, iphone, android, firefox os, windows mobile, phone gap, javascript, html5" />
-		<meta name="description" content="YC Tecnologías - Desarrollo Web, Desarrollo de aplicaciones móviles, javascript, php, java, objective c">
-		<meta name="author" content="yctecnologias.com">
+		<title>Porto - Responsive HTML5 Template</title>
+		<meta name="keywords" content="HTML5 Template" />
+		<meta name="description" content="Porto - Responsive HTML5 Template">
+		<meta name="author" content="Crivos.com">
 
 		<!-- Mobile Metas -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Web Fonts  -->
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Shadows+Into+Light" rel="stylesheet" type="text/css">
 
 		<!-- Libs CSS -->
 		<link rel="stylesheet" href="css/bootstrap.css">
@@ -25,8 +28,8 @@
 		<link rel="stylesheet" href="css/theme-elements.css">
 
 		<!-- Current Page Styles -->
-		<link rel="stylesheet" href="vendor/revolution-slider/css/settings.css" media="screen" />
-		<link rel="stylesheet" href="vendor/revolution-slider/css/captions.css" media="screen" />
+		<link rel="stylesheet" href="vendor/nivo-slider/nivo-slider.css" media="screen" />
+		<link rel="stylesheet" href="vendor/nivo-slider/themes/default/default.css" media="screen" />
 		<link rel="stylesheet" href="vendor/circle-flip-slideshow/css/component.css" media="screen" />
 
 		<!-- Custom CSS -->
@@ -81,7 +84,7 @@
 					<div class="search">
 						<form class="form-search" id="searchForm" action="page-search-results.html" method="get">
 							<div class="control-group">
-								<input type="text" class="input-medium search-query" name="q" id="q" placeholder="Buscar...">
+								<input type="text" class="input-medium search-query" name="q" id="q" placeholder="Search...">
 								<button class="search" type="submit"><i class="icon-search"></i></button>
 							</div>
 						</form>
@@ -89,10 +92,13 @@
 					<nav>
 						<ul class="nav nav-pills nav-top">
 							<li>
-								<a href="about-us.html"><i class="icon-angle-right"></i>¿Quiénes somos?</a>
+								<a href="about-us.html"><i class="icon-angle-right"></i>About Us</a>
 							</li>
 							<li>
-								<a href="contact-us.html"><i class="icon-angle-right"></i>Contacta con nosotros</a>
+								<a href="contact-us.html"><i class="icon-angle-right"></i>Contact Us</a>
+							</li>
+							<li class="phone">
+								<span><i class="icon-phone"></i>(123) 456-7890</span>
 							</li>
 						</ul>
 					</nav>
@@ -107,7 +113,7 @@
 						<ul class="nav nav-pills nav-main" id="mainMenu">
 							<li class="dropdown active">
 								<a class="dropdown-toggle" href="index.html">
-									Inicio
+									Home
 									<i class="icon-angle-down"></i>
 								</a>
 								<ul class="dropdown-menu">
@@ -115,46 +121,52 @@
 									<li><a href="index-2.html">Nivo Slider</a></li>
 								</ul>
 							</li>
+							<li>
+								<a href="about-us.html">About Us</a>
+							</li>
 							<li class="dropdown">
 								<a class="dropdown-toggle" href="#">
-									Web
+									Features
 									<i class="icon-angle-down"></i>
 								</a>
 								<ul class="dropdown-menu">
 									<li class="dropdown-submenu">
-										<a href="#">Proyectos a medida</a>
+										<a href="#">Blog</a>
 										<ul class="dropdown-menu">
-											<li><a href="blog-full-width.html">Desarrollos en PHP</a></li>
-											<li><a href="blog-large-image.html">HTML 5 y CSS 3</a></li>
+											<li><a href="blog-full-width.html">Blog Full Width</a></li>
+											<li><a href="blog-large-image.html">Blog Large Image</a></li>
+											<li><a href="blog-medium-image.html">Blog Medium Image</a></li>
+											<li><a href="blog-post.html">Single Post</a></li>
 										</ul>
 									</li>
-									<li><a href="feature-grid-system.html">Comercio electrónico</a></li>
-									<li><a href="feature-pricing-tables.html">Responsive Design</a></li>
-									<li><a href="feature-icons.html">Web App</a></li>
-									<li><a href="feature-elements.html">CMS</a></li>
+									<li><a href="feature-grid-system.html">Grid System</a></li>
+									<li><a href="feature-pricing-tables.html">Pricing Tables</a></li>
+									<li><a href="feature-icons.html">Icons</a></li>
+									<li><a href="feature-elements.html">Elements</a></li>
+									<li><a href="feature-typograpy.html">Typograpy</a></li>
 								</ul>
 							</li>
 							<li class="dropdown">
 								<a class="dropdown-toggle" href="#">
-									Aplicaciónes Móviles
+									Portfolio
 									<i class="icon-angle-down"></i>
 								</a>
 								<ul class="dropdown-menu">
-									<li><a href="portfolio-2-columns.html">Aplicaciones para IOS</a></li>
-									<li><a href="portfolio-3-columns.html">Aplicaciones para Android</a></li>
-									<li><a href="portfolio-4-columns.html">Aplicaciones para Firefox OS</a></li>
-									<li><a href="portfolio-single-project.html">Aplicaciones en HTML5 y Phonegap</a></li>
+									<li><a href="portfolio-2-columns.html">2 Columns</a></li>
+									<li><a href="portfolio-3-columns.html">3 Columns</a></li>
+									<li><a href="portfolio-4-columns.html">4 Columns</a></li>
+									<li><a href="portfolio-single-project.html">Single Project</a></li>
 								</ul>
 							</li>
 							<li class="dropdown">
 								<a class="dropdown-toggle" href="#">
-									Hosting
+									Pages
 									<i class="icon-angle-down"></i>
 								</a>
 								<ul class="dropdown-menu">
-									<li><a href="page-full-width.html">Alojamiento Web</a></li>
-									<li><a href="page-left-sidebar.html">Correo Electrónico</a></li>
-									<li><a href="page-right-sidebar.html">Dominios</a></li>
+									<li><a href="page-full-width.html">Full width</a></li>
+									<li><a href="page-left-sidebar.html">Left sidebar</a></li>
+									<li><a href="page-right-sidebar.html">Right sidebar</a></li>
 									<li><a href="page-custom-header.html">Custom Header</a></li>
 									<li><a href="page-404.html">404 Error</a></li>
 									<li><a href="page-team.html">Team</a></li>
@@ -164,19 +176,8 @@
 									<li><a href="sitemap.html">Sitemap</a></li>
 								</ul>
 							</li>
-							<li class="dropdown">
-								<a class="dropdown-toggle" href="#">
-									Marketing Online
-									<i class="icon-angle-down"></i>
-								</a>
-								<ul class="dropdown-menu">
-									<li><a href="page-full-width.html">Google Adwords</a></li>
-									<li><a href="page-left-sidebar.html">Social Commerce</a></li>
-									<li><a href="page-right-sidebar.html">SEO (Posicionamiento Natural)</a></li>		
-								</ul>
-							</li>
 							<li>
-								<a href="contact-us.html">Contacto</a>
+								<a href="contact-us.html">Contact Us</a>
 							</li>
 						</ul>
 					</nav>
@@ -186,102 +187,39 @@
 			<div role="main" class="main">
 				<div id="content" class="content full">
 
-					<div class="slider-container">
-						<div class="slider" id="revolutionSlider">
-							<ul>
-								<li data-transition="fade" data-slotamount="10" data-masterspeed="300">
-									<img src="img/slides/slide-bg.jpg" data-fullwidthcentering="on" alt="">
-
-										<div class="caption sft stb visible-desktop"
-											 data-x="42"
-											 data-y="180"
-											 data-speed="300"
-											 data-start="1000"
-											 data-easing="easeOutExpo"><img src="img/slides/slide-title-border.png" alt=""></div>
-
-										<div class="caption top-label lfl stl"
-											 data-x="92"
-											 data-y="180"
-											 data-speed="300"
-											 data-start="500"
-											 data-easing="easeOutExpo">DO YOU NEED A NEW</div>
-
-										<div class="caption sft stb visible-desktop"
-											 data-x="342"
-											 data-y="180"
-											 data-speed="300"
-											 data-start="1000"
-											 data-easing="easeOutExpo"><img src="img/slides/slide-title-border.png" alt=""></div>
-
-										<div class="caption main-label sft stb"
-											 data-x="0"
-											 data-y="230"
-											 data-speed="300"
-											 data-start="1500"
-											 data-easing="easeOutExpo">WEB DESIGN?</div>
-
-										<div class="caption bottom-label sft stb"
-											 data-x="50"
-											 data-y="280"
-											 data-speed="500"
-											 data-start="2000"
-											 data-easing="easeOutExpo">Check out our options and features.</div>
-
-										<div class="caption fade"
-											 data-x="450"
-											 data-y="50"
-											 data-speed="500"
-											 data-start="2500"
-											 data-easing="easeOutExpo"><img src="img/slides/slide-concept.png" alt=""></div>
-
-								</li>
-								<li data-transition="fade" data-slotamount="10" data-masterspeed="300">
-									<img src="img/slides/slide-bg.jpg" data-fullwidthcentering="on" alt="">
-
-										<div class="caption fade"
-											 data-x="0"
-											 data-y="50"
-											 data-speed="500"
-											 data-start="200"
-											 data-easing="easeOutExpo"><img src="img/slides/slide-concept-2.png" alt=""></div>
-
-										<div class="caption main-label sft stb"
-											 data-x="550"
-											 data-y="200"
-											 data-speed="300"
-											 data-start="1500"
-											 data-easing="easeOutExpo">CONTACT US</div>
-
-										<div class="caption bottom-label sft stb"
-											 data-x="570"
-											 data-y="250"
-											 data-speed="500"
-											 data-start="2000"
-											 data-easing="easeOutExpo">And check out our options and features.</div>
-											 
-								</li>
-							</ul>
-						</div>
-					</div>
-
-					<div class="home-intro">
-						<div class="container">
-
-							<div class="row">
-								<div class="span8">
-									<p>
-										The fastest way to grow your business with the leader in <em>Technology.</em>
-										<span>Check out our options and features included.</span>
-									</p>
-								</div>
-								<div class="span4">
-									<div class="get-started">
-										<a href="#" class="btn btn-large btn-primary">Get Started Now!</a>
-										<div class="learn-more">or <a href="index.html">learn more.</a></div>
+					<div class="container">
+						<div class="row">
+							<div class="span12">
+								<div class="nivo-slider">
+									<div class="slider-wrapper theme-default">
+										<div id="nivoSlider" class="nivoSlider">
+											<img src="img/slides/slide-1.jpg" data-thumb="img/slides/slide-1.jpg" alt="" />
+											<img src="img/slides/slide-2.jpg" data-thumb="img/slides/slide-2.jpg" alt="" />
+										</div>
+										<div id="htmlcaption" class="nivo-html-caption"></div>
 									</div>
 								</div>
 							</div>
-
+						</div>
+						<div class="row">
+							<div class="span12">
+								<div class="home-intro home-intro-compact">
+									<div class="row">
+										<div class="span8">
+											<p>
+												The fastest way to grow your business with the leader in <em>Technology.</em>
+												<span>Check out our options and features included.</span>
+											</p>
+										</div>
+										<div class="span4">
+											<div class="get-started">
+												<a href="#" class="btn btn-large btn-primary">Get Started Now!</a>
+												<div class="learn-more">or <a href="index.html">learn more.</a></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 
@@ -289,9 +227,9 @@
 
 						<div class="row center">
 							<div class="span12">
-								<h2 class="short">Garantizamos la <strong class="inverted">calidad</strong> de tu proyecto</h2>
+								<h2 class="short">Porto is <strong class="inverted">incredibly</strong> beautiful and fully responsive.</h2>
 								<p class="featured lead">
-									Ofrecemos servicios integrales en tecnología para hacer realidad tu idea. Contamos con un equipo de expertos desarrolladores que te aportarán la máxima calidad profesional. 
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elementum, nulla vel pellentesque consequat, ante nulla hendrerit arcu, ac tincidunt mauris lacus sed leo. vamus suscipit molestie vestibulum.
 								</p>
 							</div>
 						</div>
@@ -344,7 +282,7 @@
 
 						<div class="row">
 							<div class="span8">
-								<h2>qué te <strong>ofrecemos</strong></h2>
+								<h2>Our <strong>Features</strong></h2>
 								<div class="row">
 									<div class="span4">
 										<div class="feature-box">
@@ -352,8 +290,8 @@
 												<i class="icon-group"></i>
 											</div>
 											<div class="feature-box-info">
-												<h4 class="shorter">Desarrollo web a medida</h4>
-												<p class="tall">Creamos aplicaciones en PHP, JAVA, Javascript... </p>
+												<h4 class="shorter">Customer Support</h4>
+												<p class="tall">Lorem ipsum dolor sit amet, consectetur adip.</p>
 											</div>
 										</div>
 										<div class="feature-box">
@@ -361,8 +299,8 @@
 												<i class="icon-file"></i>
 											</div>
 											<div class="feature-box-info">
-												<h4 class="shorter">Comercio Electrónico</h4>
-												<p class="tall">Somos expertos desarrolladores en Magento y Prestashop</p>
+												<h4 class="shorter">HTML5 / CSS3 / JS</h4>
+												<p class="tall">Lorem ipsum dolor sit amet, adip.</p>
 											</div>
 										</div>
 										<div class="feature-box">
@@ -370,8 +308,8 @@
 												<i class="icon-google-plus"></i>
 											</div>
 											<div class="feature-box-info">
-												<h4 class="shorter">Proyectos open source económicos</h4>
-												<p class="tall">Si tu presupuesto es limitado te ofrecemos desarrollos avanzados en WordPress, Joomla o Drupal</p>
+												<h4 class="shorter">500+ Google Fonts</h4>
+												<p class="tall">Lorem ipsum dolor sit amet, consectetur adip.</p>
 											</div>
 										</div>
 										<div class="feature-box">
@@ -379,8 +317,8 @@
 												<i class="icon-adjust"></i>
 											</div>
 											<div class="feature-box-info">
-												<h4 class="shorter">... y adaptado a cualquier soporte</h4>
-												<p class="tall">Responsive Design, Web App... amplía el alcance de tu proyecto</p>
+												<h4 class="shorter">Colors</h4>
+												<p class="tall">Lorem ipsum dolor sit amet, consectetur adip.</p>
 											</div>
 										</div>
 									</div>
@@ -390,8 +328,8 @@
 												<i class="icon-film"></i>
 											</div>
 											<div class="feature-box-info">
-												<h4 class="shorter">Aplicaciones móviles en IOS y Android</h4>
-												<p class="tall">Desarrollamos aplicaciones a medida para dispositivos IPHONE, IPAD y Android</p>
+												<h4 class="shorter">Sliders</h4>
+												<p class="tall">Lorem ipsum dolor sit amet, consectetur.</p>
 											</div>
 										</div>
 										<div class="feature-box">
@@ -399,8 +337,8 @@
 												<i class="icon-ok"></i>
 											</div>
 											<div class="feature-box-info">
-												<h4 class="shorter">Aplicaciones móviles en HTML 5</h4>
-												<p class="tall">Te ofrecemos la tecnología web más avanzada para usarla en tu proyecto para cualquier plataforma: IOS, Android, Windows Phone, Blackberry, Firefox OS...</p>
+												<h4 class="shorter">Icons</h4>
+												<p class="tall">Lorem ipsum dolor sit amet, consectetur adip.</p>
 											</div>
 										</div>
 										<div class="feature-box">
@@ -408,8 +346,8 @@
 												<i class="icon-reorder"></i>
 											</div>
 											<div class="feature-box-info">
-												<h4 class="shorter">Servicios Hosting</h4>
-												<p class="tall">Ofrecemos soluciones para todo tipo de proyectos, servicio de correo y registro de dominios</p>
+												<h4 class="shorter">Buttons</h4>
+												<p class="tall">Lorem ipsum dolor sit, consectetur adip.</p>
 											</div>
 										</div>
 										<div class="feature-box">
@@ -417,15 +355,15 @@
 												<i class="icon-desktop"></i>
 											</div>
 											<div class="feature-box-info">
-												<h4 class="shorter">Marketing Online</h4>
-												<p class="tall">Gestionamos tu campaña en Google Adwords, Facebook... </p>
+												<h4 class="shorter">Lightbox</h4>
+												<p class="tall">Lorem sit amet, consectetur adip.</p>
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 							<div class="span4">
-								<h2>noticias</h2>
+								<h2>and more...</h2>
 								<div class="accordion" id="accordion">
 									<div class="accordion-group">
 										<div class="accordion-heading">
@@ -465,61 +403,51 @@
 
 						<div class="row center">
 							<div class="span12">
-								<h2 class="short">Servicios integrales en las últimas <strong>tecnologías</strong></h2>
+								<h2 class="short">We're not the only ones <strong>excited</strong> about Porto Template...</h2>
 								<h4 class="lead tall">5,500 customers in 100 countries use Porto Template. Meet our customers.</h4>
 							</div>
 						</div>
 						<div class="row center">
-							<div class="flexslider unstyled" data-plugin-options='{"directionNav":true, "animation":"slide", "slideshow": true, "maxVisibleItems": 6}'>
+							<div class="flexslider unstyled" data-plugin-options='{"directionNav":false, "animation":"slide", "slideshow": false, "maxVisibleItems": 6}'>
 								<ul class="slides">
 									<li>
 										<div class="span2">
-											<img class="mobile-max-width small" src="img/logo_symfony.png" alt="Symfony - Desarrollo en PHP">
+											<img class="mobile-max-width small" src="img/logo-client-1.jpg" alt="">
 										</div>
 									</li>
 									<li>
 										<div class="span2">
-											<img class="mobile-max-width small" src="img/logo_codeigniter.png" alt="CodeIgniter - Desarrollo en PHP">
+											<img class="mobile-max-width small" src="img/logo-client-2.jpg" alt="">
 										</div>
 									</li>
 									<li>
 										<div class="span2">
-											<img class="mobile-max-width small" src="img/logo_jquery.png" alt="Jquery - Desarrollo Javascript">
+											<img class="mobile-max-width small" src="img/logo-client-3.jpg" alt="">
 										</div>
 									</li>
 									<li>
 										<div class="span2">
-											<img class="mobile-max-width small" src="img/logo_hml5.png" alt="HTML5 - Desarrollo en HTML5 y CSS3">
+											<img class="mobile-max-width small" src="img/logo-client-4.jpg" alt="">
 										</div>
 									</li>
 									<li>
 										<div class="span2">
-											<img class="mobile-max-width small" src="img/logo_nodejs.png" alt="Node JS - Desarrollo Javascript">
+											<img class="mobile-max-width small" src="img/logo-client-5.jpg" alt="">
 										</div>
 									</li>
 									<li>
 										<div class="span2">
-											<img class="mobile-max-width small" src="img/logo_apple.png" alt="Desarrollo Aplicaciones Móviles en IOS">
+											<img class="mobile-max-width small" src="img/logo-client-6.jpg" alt="">
 										</div>
 									</li>
 									<li>
 										<div class="span2">
-											<img class="mobile-max-width small" src="img/logo_android.png" alt="Desarrollo de Aplicaciones Móviles en Android">
+											<img class="mobile-max-width small" src="img/logo-client-4.jpg" alt="">
 										</div>
 									</li>
 									<li>
 										<div class="span2">
-											<img class="mobile-max-width small" src="img/logo_firefox.png" alt="Desarrollo Aplicaciones en HTML5 para Firefox OS">
-										</div>
-									</li>
-									<li>
-										<div class="span2">
-											<img class="mobile-max-width small" src="img/logo_phonegap.png" alt="Desarrollo Aplicaciones en HTML5 para Android e IOS con Phonegap">
-										</div>
-									</li>
-									<li>
-										<div class="span2">
-											<img class="mobile-max-width small" src="img/logo_google.png" alt="Google Adwords, Marketing Online">
+											<img class="mobile-max-width small" src="img/logo-client-2.jpg" alt="">
 										</div>
 									</li>
 								</ul>
@@ -661,9 +589,12 @@
 			<footer>
 				<div class="container">
 					<div class="row">
+						<div class="footer-ribon">
+							<span>Get in Touch</span>
+						</div>
 						<div class="span3">
 							<h4>Newsletter</h4>
-							<p>¿Quieres conocer nuestras promociones especiales? ¡Apúntate a nuestro newsletter!</p>
+							<p>Keep up on our always evolving product features and technology. Enter your e-mail and subscribe to our newsletter.</p>
 
 							<div class="alert alert-success hidden" id="newsletterSuccess">
 								<strong>Success!</strong> You've been added to our email list.
@@ -674,7 +605,7 @@
 							<form class="form-inline" id="newsletterForm" action="php/newsletter-subscribe.php" method="POST">
 								<div class="control-group">
 									<div class="input-append">
-										<input class="span2" placeholder="Email" name="email" id="email" type="text">
+										<input class="span2" placeholder="Email Address" name="email" id="email" type="text">
 										<button class="btn" type="submit">Go!</button>
 									</div>
 								</div>
@@ -688,14 +619,16 @@
 						</div>
 						<div class="span4">
 							<div class="contact-details">
-								<h4>Contacta con nosotros</h4>
+								<h4>Contact Us</h4>
 								<ul class="contact">
-									<li><p><i class="icon-envelope"></i> <strong>Email:</strong> <a href="mailto:info@yctecnologias.com">info@yctecnologias.com</a></p></li>
+									<li><p><i class="icon-map-marker"></i> <strong>Address:</strong> 1234 Street Name, City Name, United States</p></li>
+									<li><p><i class="icon-phone"></i> <strong>Phone:</strong> (123) 456-7890</p></li>
+									<li><p><i class="icon-envelope"></i> <strong>Email:</strong> <a href="mailto:mail@example.com">mail@example.com</a></p></li>
 								</ul>
 							</div>
 						</div>
 						<div class="span2">
-							<h4>Síguenos</h4>
+							<h4>Follow Us</h4>
 							<div class="social-icons">
 								<ul class="social-icons">
 									<li class="facebook"><a href="http://www.facebook.com/" target="_blank" data-placement="bottom" rel="tooltip" title="Facebook">Facebook</a></li>
@@ -715,14 +648,14 @@
 								</a>
 							</div>
 							<div class="span7">
-								<p>© Copyright 2013 YC Tecnologías. Todos los derchos reservados.</p>
+								<p>© Copyright 2013 by Crivos. All Rights Reserved.</p>
 							</div>
 							<div class="span4">
 								<nav id="sub-menu">
 									<ul>
 										<li><a href="page-faq.html">FAQ's</a></li>
-										<li><a href="sitemap.html">Mapa del Sitio</a></li>
-										<li><a href="contact-us.html">Contacto</a></li>
+										<li><a href="sitemap.html">Sitemap</a></li>
+										<li><a href="contact-us.html">Contact</a></li>
 									</ul>
 								</nav>
 							</div>
@@ -741,8 +674,7 @@
 		<script src="vendor/bootstrap.js"></script>
 		<script src="vendor/selectnav.js"></script>
 		<script src="vendor/twitterjs/twitter.js"></script>
-		<script src="vendor/revolution-slider/js/jquery.themepunch.plugins.js"></script>
-		<script src="vendor/revolution-slider/js/jquery.themepunch.revolution.js"></script>
+		<script src="vendor/nivo-slider/jquery.nivo.slider.js"></script>
 		<script src="vendor/flexslider/jquery.flexslider.js"></script>
 		<script src="vendor/circle-flip-slideshow/js/jquery.flipshow.js"></script>
 		<script src="vendor/fancybox/jquery.fancybox.js"></script>
